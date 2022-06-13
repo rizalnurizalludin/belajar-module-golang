@@ -6,7 +6,7 @@ b is number2 as integer
 opr is operator as string
 return is integer and error
 */
-func calculate(a, b int, opr string)(int, string) {
+func Calculate(a, b int, opr string)(int, string) {
 	var result int
 	var err string
 	switch opr{
