@@ -1,7 +1,7 @@
-package helper
+package belajar_module
 
 import "fmt"
 
-func SayHello(name string) {
-	fmt.Println("Hello", name)
+func SayHello(yourname, myname string) {
+	fmt.Println("Hello", yourname, "My Name is", myname)
 }
